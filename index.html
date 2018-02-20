@@ -2,19 +2,31 @@
 
 <head>
 <link href="http://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
-  <link rel="stylesheet-pers" href="./stylesheet.css">
-  <title="John Minahan - Software Engineer">
+  <title>John Minahan</title>
 
   <style>
 
   body {
       font-family: 'PT Mono', monospace;
-      font-size: 48px;
+      font-size: 16px;
   }
 
   .body-content {
     display:flex;
     flex-direction: row;
+    margin-top:10%;
+  }
+
+  .page-content {
+    max-width:50%;
+  }
+
+  .nav-bar {
+    margin-right:20%;
+  }
+
+  ul li {
+    padding: 5px 0px;
   }
   </style>
 
@@ -22,20 +34,29 @@
 
 
 <body>
-<div class="body-content">
-<div class="nav-bar">
-<ul>
-  <li>Homepage</li>
-  <li>Resume</li>
-  <li>Github</li>
-  <ul>Projects
-    <li>Coming soon</li>
-  </ul>
-<ul>
-</div>
+  <div class="body-content">
+    <div class="nav-bar">
+      <ul>
+        <li><a href="#">Homepage</a></li>
+        <li><a href="resume.html">Resume</a>/<a href="JohnMinahanFebruary2018Resume.pdf">Download</a></li>
+        <li><a href="https://www.linkedin.com/in/john-minahan-557768144/">LinkedIn</a></li>
+        <li><a href="https://github.com/jminahan">Github</a></li>
+        <li>Projects</li>
+        <ul>
+          <li>Coming soon</li>
+        </ul>
+        <ul>
+        </div>
 
-<div class="page-contenet">
-Here be the page content
+<div class="page-content">
+Hi!  Welcome to my site!  There isn't much to it, but here's the rundown:
+<ul style="list-style-type:none">
+<li>My resume is available as both an <a href="resume.html">HTML webpage</a> and a <a href="JohnMinahanFebruary2018Resume.pdf">PDF download</a> (I normally distribute the PDF)</li>
+<li>You can also get to <a href="https://www.linkedin.com/in/john-minahan-557768144/">my LinkedIn</a>, but honestly, it is (currently) sparsely used.  (I have a snazzy looking picture on there though, so it has that going for it.)</li>
+<li>You can get to my Github with the... <a href="https://github.com/jminahan">Github link.</a></li>
+<li>But it may be easier to view each Project individually in the list.  Each project has an associated discussion post.
+Hopefully these posts help you get a little more inside my head while I was going through the project.</li>
+</ul>
 </div>
 </div>
 </body>
