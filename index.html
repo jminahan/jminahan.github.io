@@ -1,65 +1,66 @@
-<html>
+---
+layout: default
+---
 
-<head>
-<link href="http://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
-  <title>John Minahan</title>
+<div>
 
-  <style>
+  <section>
+    <h1>Jekyll theme based on hack.css</h1>
 
-  body {
-      font-family: 'PT Mono', monospace;
-      font-size: 16px;
-  }
+    <p>
+      Mobile-ready, modern, stylish, simple.
+    </p>
+  </section>
 
-  .body-content {
-    display:flex;
-    flex-direction: row;
-    margin-top:6%;
-  }
+  <section>
+    <h2>What is Jekyll?</h2>
 
-  .page-content {
-    max-width:50%;
-  }
+    <p>
+      <code>Jekyll</code> is a simple, blog-aware, static site generator
+      perfect for personal, project,
+      or organization sites. Think of it like a
+      file-based CMS, without all the complexity.
+      <code>Jekyll</code> takes your content, renders Markdown
+      and Liquid templates, and spits out a
+      complete, static website ready to be served by Apache,
+      Nginx or another web server.
+      <code>Jekyll</code> is the engine behind GitHub Pages,
+      which you can use to host sites right
+      from your GitHub repositories.
+    </p>
+  </section>
 
-  .nav-bar {
-    margin-right:20%;
-  }
+  <section>
+    <h2>What is hack.css?</h2>
 
-  ul li {
-    padding: 5px 0px;
-  }
-  </style>
+    <p>
+      <code>hack.css</code> is a dead simple css framework. Chech out
+      <a href="http://hackcss.com/">hackcss.com</a> to know more.
+    </p>
+  </section>
 
-</head>
+  <section>
+    <h2>Getting started</h2>
 
+    <p>
+      <ol>
+        <li>Make sure you have <code>Jekyll</code> up and running</li>
+        <li>Clone
+          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
+        </li>
+        <li>Customize it</li>
+        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
+      </ol>
 
-<body>
-  <div class="body-content">
-    <div class="nav-bar">
-      <ul>
-        <li><a href="#">Homepage</a></li>
-        <li><a href="resume.html">Resume</a>/<a href="JohnMinahanFebruary2018Resume.pdf">Download</a></li>
-        <li><a href="https://www.linkedin.com/in/john-minahan-557768144/">LinkedIn</a></li>
-        <li><a href="https://github.com/jminahan">Github</a></li>
-        <li>Projects</li>
-        <ul>
-          <li>Coming soon</li>
-        </ul>
-        <ul>
-        </div>
+    </p>
+  </section>
 
-<div class="page-content">
-Hi!  Welcome to my site!  There isn't much to it, but here's the rundown:
-<ul style="list-style-type:none">
-<li>My resume is available as both an <a href="resume.html">HTML webpage</a> and a <a href="JohnMinahanFebruary2018Resume.pdf">PDF download</a> (I normally distribute the PDF)</li>
-<li>You can also get to <a href="https://www.linkedin.com/in/john-minahan-557768144/">my LinkedIn</a>, but honestly, it is (currently) sparsely used.  (I have a snazzy looking picture on there though, so it has that going for it.)</li>
-<li>You can get to my Github with the... <a href="https://github.com/jminahan">Github link.</a></li>
-<li>But it may be easier to view each Project individually in the list.  Each project has an associated discussion post.
-Hopefully these posts help you get a little more inside my head while I was going through the project.</li>
-</ul>
+  <section>
+    <h2>Subscribe</h2>
+
+    <p>
+      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    </p>
+  </section>
+
 </div>
-</div>
-</body>
-
-
-</html>
