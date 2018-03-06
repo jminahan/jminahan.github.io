@@ -39,9 +39,6 @@ navigation:
   - text: Github
     url: https://github.com/jminahan
     out: true
-  - text: Discussion Posts
-    url: /dispage.html
-    out: false
   - text: LinkedIn
     url: https://www.linkedin.com/in/john-minahan-557768144/
     out: true
