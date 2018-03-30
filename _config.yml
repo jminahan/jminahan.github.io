@@ -30,9 +30,6 @@ navigation:
   - text: Home
     url: /
     out: false
-  - text: Resume (Web)
-    url: /resume.html
-    out: false
   - text: Resume (PDF)
     url: /resume.pdf
     out: false
